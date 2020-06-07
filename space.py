@@ -1,7 +1,4 @@
-# space.py
-# We are going to be dive into the Space Travel code!
-
-## Part 1: Debugging the Code ############################################
+## PART 1: Debugging ############################################
 # Find the bug in this piece of code. Note that with the height 72, your code should print "mesosphere" based off the Space Travel slides on slide 7. 
 ##########################################################
 height = 72
@@ -14,9 +11,31 @@ elif height > 100:
   print('space')
 else:
   print('troposhere') 
+  
+  
+#### PART 2: Temperature Testing ####
+#### YOUR CODE HERE ####
 
 
-## Part 2: Practice with conditionals
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### PART 3: Practice with conditionals #####
 ############################################
 # Now that we are off planet 🌍 and into space, we flew off into the dark abyss of space. Not much longer, we landed on a planet at the same time the space ship's location identifier broke. However, when we checked our distance traveled from Earth, our distance meter reads 55 million kilometers.
 # We have to fix this issue to identify the planet we have landed on. 
@@ -27,6 +46,8 @@ else:
 # If distance meter reads 860-1900 million miles (inclusive), then it landed on Saturn (print Saturn)
 # If distance meter reads 1901-2787 million miles (inclusive), then it landed on Neptune (print Neptune)
 ##########################################################
+#### YOUR CODE HERE ####
+
 
 
 
@@ -56,7 +77,7 @@ else:
 
 
   
-## Part 3: Conditionals within conditionals
+## PART 4: Conditionals within conditionals
 ##############################################
 # Now that you've been able to identify which planet you have landed on, you need to reconfigure your system based off the planet you've arrived in to find a place to settle your space ship for the night. You've set up a couple markers around your space ship and measured their distances from the the flag that your teammates found around 200 miles from your space ship. 
 # The commanders says that you must follow these code requirements to determine if your space ship location is safe:
@@ -72,6 +93,8 @@ else:
 # NOTE: You are comparing strings and also comparing integers and you will have conditionals within conditionals in your code
 # First start with setting a string variable marker_color to "red" & another integer variable marker_distance to 145
 ########################################################## 
+#### YOUR CODE HERE ####
+
 
 
   
