@@ -10,6 +10,8 @@ print('This is the number you typed in ' + str(my_number))
 # Try running this to see what happens!
 # What is happening is that we are asking the user of our program to type something
 # and then this value is STORED inside of our variable my_number.
+# The variable my_number is then type casted into a string
+# to concatenate with the rest of the statement
 # Here is an example Mad Lib for you to play with! 
 ################################################################################
 user_name = input("Hey what's your name?: ") # expecting string input
