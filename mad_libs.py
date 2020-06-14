@@ -35,7 +35,7 @@ print()
 # function that takes in the prompt to ask the user.
 # Here's an example below:
 ################################################################################
-print('Let\'s start with an example Mad Lib! :) ') # \ is an escape character in python since the ' you use is the same as the string quotes your are using. You must include the escape character to add the quote -> ' in your printed string
+print('Let\'s start with an example Mad Lib! :) ') # \ is an escape character in python since the ' you use is the same as the string quotes you are using. You must include the escape character to add the quote ' in your printed string
 print("Below, the INPUT variables will ask for your responses & just type them in! ")
 print()
 print("Example 1: Vacations")
@@ -46,7 +46,7 @@ noun2 = input("Please enter another noun (different from one above): ")
 pnoun1 = input("Please enter a plural noun: ")
 game = input("Please enter a game: ")
 pnoun2 = input("Please enter another plural noun (different from one above): ")
-verb1 = input("Please enter a verb ending with 'ing': ") # noticer here that you do not need an escape character for the ' quotes inside the string quotes because they are not the same :)
+verb1 = input("Please enter a verb ending with 'ing': ") # notice here that you do not need an escape character for the ' quotes inside the string quotes because they are not the same :)
 verb2 = input("Please enter another verb ending with 'ing': ")
 verb3 = input("Please enter another verb ending with 'ing' (different from one above): ")
 noun3 = input("Please enter another noun (different from ones above): ")
@@ -71,5 +71,5 @@ print()
 ## Part 3: Making your own Mad Libs #################################################
 # Now it is time for your to go on & make your own Mad Libs! Be creative & fun :) 
 # Feel free to use the example from above for some inspiration!
-print('Let\'s start writing your own Mad Libs below! :) ') # \ is an escape character in python since the ' you use is the same as the string quotes your are using. You must include the escape character to add the quote -> ' in your printed string
+print('Let\'s start writing your own Mad Libs below! :) ') 
 ################################################################################
