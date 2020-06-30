@@ -5,8 +5,8 @@
 # First let's define some variables you may want to use below, in Mad Libs
 # we want to work with INPUTS in this game, so we want to declare a variable
 # to an input. We can do this by writing:
-my_number = input('Please type in a number: ')
-print('This is the number you typed in ' + str(my_number))
+my_number = input('20')
+print('20' + str(my_number))
 # Try running this to see what happens!
 # What is happening is that we are asking the user of our program to type something
 # and then this value is STORED inside of our variable my_number.
@@ -14,12 +14,12 @@ print('This is the number you typed in ' + str(my_number))
 # to concatenate with the rest of the statement
 # Here is an example Mad Lib for you to play with! 
 ################################################################################
-user_name = input("Hey what's your name?: ") # expecting string input
-grade = input("What grade are you in? ") # expecting integer input
+user_name = input(" Ellasia ") # expecting string input
+grade = input("5th Grade ") # expecting integer input
 print() # prints an empty line
-print("Introduction Message For You: ")
+print(" hello ")
 print('Hi ' + user_name + ', hope you are doing well! :D')
-print("Keep working hard and being positive because you're the coolest " + str(grade) +
+print("Keep working hard and being positive because you're the coolest " + str(5) +
 "th grader. I admire that you are taking the initiative to learn coding this summer. Staying at home can get a little boring, but we can push through this tough time! The cool thing about making Mad Libs is that you can make your own & then ask your family to try it too!")
 print() # prints an empty line
 print("----------------------------------------------------------")
@@ -39,19 +39,19 @@ print('Let\'s start with an example Mad Lib! :) ') # \ is an escape character in
 print("Below, the INPUT variables will ask for your responses & just type them in! ")
 print()
 print("Example 1: Vacations")
-adj1 = input("Please enter an adjective: ")
-adj2 = input("Please enter another adjective (different from one above): ")
-noun1 = input("Please enter a noun: ")
-noun2 = input("Please enter another noun (different from one above): ")
-pnoun1 = input("Please enter a plural noun: ")
-game = input("Please enter a game: ")
-pnoun2 = input("Please enter another plural noun (different from one above): ")
-verb1 = input("Please enter a verb ending with 'ing': ") # notice here that you do not need an escape character for the ' quotes inside the string quotes because they are not the same :)
-verb2 = input("Please enter another verb ending with 'ing': ")
-verb3 = input("Please enter another verb ending with 'ing' (different from one above): ")
-noun3 = input("Please enter another noun (different from ones above): ")
-verb4 = input("Please enter another verb ending with 'ing' (different from ones above): ")
-noun3 = input("Please enter another noun (different from ones above): ")
+adj1 = input("Big")
+adj2 = input("Giant")
+noun1 = input("stuffed animal")
+noun2 = input("Walmart ")
+pnoun1 = input("children")
+game = input("Minecraft")
+pnoun2 = input("people")
+verb1 = input("vibing") # notice here that you do not need an escape character for the ' quotes inside the string quotes because they are not the same :)
+verb2 = input("singing ")
+verb3 = input("smelling ")
+noun3 = input("person")
+verb4 = input(" ")
+noun4 = input("Please enter another noun (different from ones above): ")
 plant = input("Please enter a plant: ")
 body = input("Please enter a part of the body: ")
 place = input("Please enter a place: ")
